@@ -13,7 +13,8 @@
   "permissions": [
     "activeTab",
     "storage",
-    "scripting"
+    "scripting",
+    "notifications"
   ],
   "host_permissions": [
     "https://horizon.mcgill.ca/"
@@ -35,4 +36,4 @@
       "js": ["content.js"]
     }
   ]
-} 
+}

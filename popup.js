@@ -21,7 +21,7 @@ document.getElementById('startRegister').addEventListener('click', async () => {
       return;
     }
 
-    const frequency = Math.max(5, Math.min(300, parseInt(document.getElementById('frequencyInput').value) || 30));
+    const frequency = Math.max(15, Math.min(300, parseInt(document.getElementById('frequencyInput').value) || 30));
 
     try {
       await chrome.scripting.executeScript({
@@ -56,4 +56,4 @@ document.getElementById('stopRegister').addEventListener('click', async () => {
 
 function updateStatus(message) {
   document.getElementById('status').textContent = message;
-} 
+}
