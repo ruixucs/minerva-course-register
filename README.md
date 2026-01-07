@@ -1,3 +1,4 @@
+**ATTENTION: the minerva only allow you to add/drop 1000 times per semester!**
 # Minerva Auto-Register
 
 With this Chrome extension, you don't need to manually register for courses every hour during the Add/Drop period to secure the ones you want.
